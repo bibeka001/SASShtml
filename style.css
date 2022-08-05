@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: slategray;
+  font: 18px/24px arial;
+}
+#wrapper {
+  border: 1px solid black;
+  width: 1000px;
+  background: white;
+  margin: 0 auto;
+}
+#top-bar {
+  background: mediumpurple;
+}
+#top-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
